@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>YKT（ゆきと）｜Web制作ポートフォリオ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      color: #333;
+      line-height: 1.7;
+      background: #fff;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 24px;
+      border-left: 6px solid #2563eb;
+      padding-left: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #f4f6f8;
+      padding: 24px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: #2563eb;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>YKT（ゆきと）</h1>
+    <p>Web制作｜HTML / CSS / JavaScript / WordPress</p>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      シンプルで分かりやすいWebサイト制作を行っています。<br />
+      個人事業主・小規模事業者向けのコーポレートサイトやLP制作が得意です。
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>HTML / CSS</h3>
+        <p>レスポンシブ対応、保守性を意識したコーディング</p>
+      </div>
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>UIの動き、簡単なフォーム制御など</p>
+      </div>
+      <div class="card">
+        <h3>WordPress</h3>
+        <p>既存テーマのカスタマイズ・軽微な改修</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Works</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>ポートフォリオサイト</h3>
+        <p>HTML / CSS で制作した自身のポートフォリオ（本サイト）</p>
+      </div>
+      <div class="card">
+        <h3>コーポレートサイト（架空）</h3>
+        <p>小規模事業者向けのシンプルなWebサイト</p>
+      </div>
+      <div class="card">
+        <h3>LP制作（架空）</h3>
+        <p>サービス紹介用のランディングページ</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>お仕事のご相談はお気軽にご連絡ください。</p>
+    <a href="mailto:your-email@example.com" class="btn">お問い合わせ</a>
+  </section>
+
+  <footer>
+    © 2026 YKT Portfolio
+  </footer>
+
+</body>
+</html>
